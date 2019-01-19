@@ -10,8 +10,8 @@
   background-color: red;
 }
 #background-1{
-  background-image: url(../img/havi-background.jpg);
-  min-height: 900px;
+  background-image: url(../img/crop-background.png);
+  min-height: 1000px;
 }
 #name {
   font-family: 'Krona One', sans-serif;
@@ -21,15 +21,46 @@
   left: 0;
   width: 100%;
   color: #ffffff;
-
-  top:70%
+  top:65%;
 }
 #sub-name {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
-  top: 90%
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  top:85%;
 }
-hr{
+#intro {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 80px;
+  min-height: 170px
+}
+.text-body{
+  font-family:'Roboto Condensed', sans-serif;
+}
 
+#intro-body{
+  font-size: 20px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 0px;
+  display: block;
+}
+#no-space{
+  font-size: 0px;
+}
+#contact {
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 80px;
+  min-height: 170px
 }

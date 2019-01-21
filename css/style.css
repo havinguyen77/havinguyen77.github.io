@@ -45,6 +45,7 @@
 
 #intro-body{
   font-size: 20px;
+  line-height: 25px;
 }
 .row {
   display: flex;
@@ -63,4 +64,63 @@
   text-align: center;
   padding: 50px 80px;
   min-height: 170px
+}
+#footer {
+  color: #ffffff;
+  text-align: center;
+
+}
+#foot-body{
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+a{
+  color: white;
+}
+
+.picture:hover{
+  transform: scale(.9);
+  transition: transform .2s;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-bottom-color: #000000
+  border-bottom-width: thin;
+  z-index: 2;
+
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  font-family:'Roboto Condensed', sans-serif;
+  z-index: 2;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }

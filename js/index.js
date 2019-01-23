@@ -8,7 +8,7 @@ $(document).ready(function() {
   // Get the offset position of the navbar
   var sticky = navbar.offsetTop;
 
-  // Add the sticky class to the navbar when you reach its scroll position. 
+  // Add the sticky class to the navbar when you reach its scroll position.
   function myFunction() {
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky")

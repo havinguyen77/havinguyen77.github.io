@@ -1,2 +1,3 @@
 # havinguyen77.github.io
-Personal Portfolio 
+Built during crash-course web development session. 
+
